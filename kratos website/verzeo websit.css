@@ -1,0 +1,207 @@
+
+
+*{
+    background-color: #EDF5E1;
+    
+    
+}
+
+#firstheading{
+        color:rgba(124, 36, 36, 0.699);
+        font-size:xx-large;
+        font-variant-caps: inherit;
+        font-stretch: inherit;
+        font-family: "Book Antiqua", Georgia, "times new roman", serif;
+        text-align: center;
+
+}
+#dropdown li{
+    list-style-type: none;
+    padding-left:50px;
+    padding-right:50px;
+    display:inline-table;
+    font-family: "Book Antiqua", Georgia, "times new roman", serif;
+    margin-bottom: 20px;
+    text-justify: inter-word;
+    text-align:justify;
+
+
+}
+#dropdown li a{
+    text-decoration: none;
+    color:rgba(124, 36, 36, 0.699);
+    font-size:20px;
+    position: relative;
+    
+    
+}
+
+
+#dropdown li a:hover{
+    color:black;
+    
+    
+
+}
+
+
+
+
+
+
+#introparagraph{
+    font-display:center ;
+    text-align:justify;
+    width:100%;
+    
+}
+
+
+
+.hero-image {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("christiano4.jpg");
+        
+  
+  height: 100%;
+  width:70%;
+  left:15%;
+  object-fit: cover;
+  
+
+  
+  
+  /*background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-left: 10%;*/
+}
+
+
+
+
+#clubs {
+    text-decoration: none;
+    list-style-type: none;
+    display:inline-table;
+    margin-left: 100px;
+    margin-top:50px;
+    padding-bottom: 50px;
+    padding-top:20px;
+    text-align:justify;
+    
+    color:black;
+    animation:inherit;
+    font-size: 50px;
+    font-weight: 20px;
+    border-width:20px;
+    
+}
+#clubs img{
+    display:justify;
+    position: relative;
+    padding-right: 20px;
+    width: 90%;
+    height: 90%;
+    border-width: 30px;
+    border-color: black;
+}
+ .text-1 span:hover {
+    
+    color:black;
+    image-rendering: auto;
+    background-image:url(realmadrid.jpg);
+    
+    
+}
+#stats {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #stats td, #stats th {
+    border: 2px solid #ddd;;
+    padding: 8px;
+    
+  }
+  
+  #stats tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #stats tr:hover {background-color: #ddd;}
+  
+  #stats th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ad5d27;
+    color: white;
+    
+  }
+ #test2,#test1{
+     text-align: center;
+     font-size: 60px;
+     font-weight: lighter;
+     display: justify;
+     color:rgba(124, 36, 36, 0.699);
+     overflow: hidden; 
+     border-right: .15em solid orange;
+     white-space: nowrap;
+     margin: 0 auto; 
+     letter-spacing: .15em; 
+     animation: 
+       typing 3.5s steps(40, end),
+       blink-caret .75s step-end infinite;
+     
+
+ }
+ #test2,#test1{
+     width:100%;
+ }
+ @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+ @media screen  and (max-width: 700px) {
+
+   #clubs img{
+       width:100%;
+       position: relative;
+       padding-left: 0;
+       padding-right:0;
+       background-color: black;
+   }
+   #test20{
+       font-size: xx-large;
+       position: relative;
+       width:100%;
+   }
+   #test2{
+       
+       text-align: center;
+       font-size: x-large;
+      
+   }
+   #dropdown{
+       display:table-header-group;
+       padding:0px;
+       text-align: left;
+
+   }
+   .container>#clubs{
+
+    font-size: xx-large;
+    text-align:left;
+    left:10%;
+   }
+   .container>#clubs img{
+       width:100%;
+       padding:0px;
+       margin:0px;
+       orientation:left;
+       overflow: hidden;
+       align-items: left;
+   }
+    
+}
